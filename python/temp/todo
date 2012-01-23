@@ -1,0 +1,5 @@
+1. find audio file in some directory
+2. get media information from file
+3. record information to a log file
+4. if audio file doesn't have any picture, get it from the internet
+4. write the picture into the audio file.
