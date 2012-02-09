@@ -1,7 +1,8 @@
 #!/usr/bin/env python
-# coding=utf8
+# -*- coding:utf-8 -*- 
 import os
 import sys
+import urllib
 from mutagen.mp3 import MP3
 from mutagen.id3 import ID3, APIC, error
 def FilePath():
@@ -26,4 +27,14 @@ def FilePath():
 				print u_album
 				u_artist = unicode(artist)
 				print u_artist
+				open('file.log', 'a').write("%s %s\n" %(u_artist, u_album))
+				base_url="http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=b25b959554ed76058ac220b7b2e0a026"
+				url=base_url+"&artist="+u_artist+"&album="+u_album
+				print url
+				xmlfile = u_artist+u_album;
+				open(str(u_album)+".xml", 'a').write(urllib.urlopen(url).read())
+				out = os.popen("grep mega %s.xml|cut -c 24-$(($(grep mega %s.xml|wc -c)-9))" %(u_album, u_album)).read()
+				print out
+				open(u_album+".jpg", 'a').write(urllib.urlopen(out).read())
+os.popen("rm *.jpg *.xml")
 FilePath()		

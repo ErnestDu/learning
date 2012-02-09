@@ -1,0 +1,2 @@
+grep mega xml|cut -c 24-$(($(grep mega xml |wc -c)-9))
+
