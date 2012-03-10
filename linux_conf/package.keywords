@@ -1,0 +1,8 @@
+net-misc/proxychains ~amd64
+media-sound/deadbeef ~amd64
+www-client/chromium ~amd64
+dev-lang/v8 ~amd64
+net-misc/hotot ~amd64
+=app-i18n/fcitx-4.0.1 ~amd64
+=app-i18n/fcitx-sunpinyin-0.2.1 ~amd64
+=app-i18n/sunpinyin-2.0.3-r1 ~amd64

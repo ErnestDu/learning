@@ -1,0 +1,6 @@
+net-misc/proxychains static-libs
+media-sound/deadbeef lastfm mac zh_cn curl
+>=dev-libs/libxml2-2.7.8-r4 icu
+app-text/poppler cjk
+dev-libs/keybinder python
+net-p2p/transmission -gtk

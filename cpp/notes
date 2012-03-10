@@ -1,0 +1,9 @@
+A class is a user-defined data type. C++ predefines a small set of fundamental data types: Boolean, character, integer, and floating point.
+The class mechanism allows us to add layers of type abstraction to our programs.
+data type
+expressions
+conditional & loop statements
+array and vectors
+writing & reading files
+function
+
