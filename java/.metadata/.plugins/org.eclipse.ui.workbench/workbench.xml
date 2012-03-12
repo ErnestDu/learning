@@ -14,11 +14,11 @@
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="106" y="24"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="90" y="24"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="66" y="24"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="106" y="24"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="58" y="24"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="162" y="24"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -27,23 +27,16 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Einstein.java" partName="Einstein.java" path="/home/ernest/src/learning/java/Einstein/src/Einstein.java" title="Einstein.java" tooltip="Einstein/src/Einstein.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Einstein/src/Einstein.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="386" selectionTopPixel="0"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (1 item)"/>
 <category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="63" org.eclipse.ui.ide.markerType="176" org.eclipse.ui.ide.pathField="123" org.eclipse.ui.ide.resourceField="93" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
@@ -104,7 +97,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
@@ -220,100 +213,7 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/HelloWorld/src/HelloWorld.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Einsten/src/Einstein.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Einstein/src/Einstein.java"/>
-</editors>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="26" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="176" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="40" y="10"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="267" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="248" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="750" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="376" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="750" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="750" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="464" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="556" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="750" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="582" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="750" y="0"/>
-</item>
-<item historyLabel="Einstein.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="2" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="231" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="212" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="217" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="221" y="0"/>
-</item>
-<item historyLabel="HelloWorld.java" index="0">
-<position info="not_deleted" x="28" y="0"/>
-</item>
-<item historyLabel="Einstein.java" index="2">
-<position info="not_deleted" x="47" y="0"/>
-</item>
-<item historyLabel="Einstein.java" index="2">
-<position info="not_deleted" x="383" y="0"/>
-</item>
-<item historyLabel="Einstein.java" index="2">
-<position info="not_deleted" x="380" y="0"/>
-</item>
-<item historyLabel="Einstein.java" index="2">
-<position info="not_deleted" x="249" y="0"/>
-</item>
-<item historyLabel="Einstein.java" index="2">
-<position info="not_deleted" x="254" y="0"/>
-</item>
-<item historyLabel="Einstein.java" index="2">
-<position info="not_deleted" x="380" y="0"/>
-</item>
-<item historyLabel="Einstein.java" index="2">
-<position info="not_deleted" x="327" y="0"/>
-</item>
-<item active="true" historyLabel="Einstein.java" index="2">
-<position info="not_deleted" x="373" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
