@@ -32,7 +32,8 @@ LinkList LinkListCreateH()
 	}
 	LinkNode *p;
 	p = L;
-	while (p->next != NULL) {
+	p = p -> next;
+	while (p != NULL) {
 		printf("%d ", p->data);
 		p = p->next;
 	}
