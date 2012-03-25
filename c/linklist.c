@@ -16,6 +16,8 @@ LinkListInit()
 	L->next = NULL;
 }
 
+
+// create link list, insert new element to head
 LinkList LinkListCreateH()
 {
 	LinkNode *L;
@@ -40,6 +42,33 @@ LinkList LinkListCreateH()
 	printf("\n");
 	return L;
 }
+
+// create link list, insert new element to tail
+LinkList LinkListCreateT()
+{
+	LinkNode *L;
+	L = (LinkNode *)malloc(sizeof(LinkNode));
+	LinkNode *tail;
+	L->next = NULL;
+	ElemType x;
+	while (scanf("%d", &x) != EOF) {
+		LinkNode *p;
+		p = (LinkNode *)malloc(sizeof(LinkNode));
+		p->data = x;
+		p = tail;
+		L->next = p;
+	}
+	LinkNode *p;
+	p = L;
+	p = p->next;
+	while (p != NULL) {
+		printf("%d", p->data);
+		p = p->next;
+	}
+	printf("\n");
+	return L;
+}
+
 //void LinkListTraverse(LinkList L)
 //{
 //	LinkNode *p;
@@ -53,5 +82,6 @@ LinkList LinkListCreateH()
 main()
 {
 	LinkList L;
-	LinkListCreateH();
+//	LinkListCreateH();
+	LinkListCreateT();
 }
