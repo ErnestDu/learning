@@ -10,7 +10,8 @@ void main()
 	scanf("%d\n", &n);
 	for (int i = 0; i < n; i++) {
 		gets(s);
-		printf("%s\n", s);
+//		printf("%s\n", s);
+		printf("Case #%d: ", i + 1);
 		len = strlen(s);
 		int j = 0;
 		int first = 1;
