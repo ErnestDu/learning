@@ -1,0 +1,14 @@
+set encoding=utf-8
+set fileencoding=utf8
+set fileencodings=utf-8,big5,gb2312
+set nocompatible
+set nu
+set tabstop=4
+set shiftwidth=4
+set autoindent
+set smartindent
+set showmatch
+set ruler
+set smartcase
+filetype on
+syntax on
